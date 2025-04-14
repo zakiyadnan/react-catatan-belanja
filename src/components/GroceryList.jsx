@@ -1,4 +1,4 @@
-import groceryItems from '../statis/static'
+import { groceryItems } from '../statis/static'
 
 function GroceryList() {
   return (
