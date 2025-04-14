@@ -1,7 +1,7 @@
 function Header() {
   return (
     <form className="add-form">
-      <h3>Hari ini belanja apa kita? telor</h3>
+      <h3>Hari ini belanja apa kita? telor burung</h3>
       <div>
         <select>
           <option value="1">1</option>
