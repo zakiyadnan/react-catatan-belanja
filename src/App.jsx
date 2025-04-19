@@ -1,7 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import GroceryList from "./components/GroceryList";
-import item from "./components/item";
+// import item from "./components/item";
 
 export default function App() {
   return (
@@ -16,5 +16,3 @@ export default function App() {
     </div>
   );
 }
-
- 

@@ -1,11 +1,17 @@
-import { useState } from "react";
+// import { useState } from "react";
+
+// import { groceryItems } from "../statis/static";
 
 function Header() {
-const [name, setName] = useState('')
-  const quantityNum = [...Array(20)].map((_, i) => ();
-  <option value={ +1} key={i +1}>
-    {i +1}
-  </option>
+  // const [name, setName] = useState('')
+  // const [groceryItems_copy,setGroroceryItems_copy] = useState(groceryItems)
+
+  // const quantityNum = [...Array(20)].map((_, i) => (
+  //   <option value={1} key={i + 1}>
+  //     {i + 1}
+  //   </option>
+  // ));
+
   return (
     <form className="add-form">
       <h3>Hari ini belanja apa kita?</h3>
@@ -20,6 +26,7 @@ const [name, setName] = useState('')
         <input type="text" placeholder="nama barang..." />
       </div>
       <button>Tambah</button>
+      {/* {quantityNum} */}
     </form>
   );
 }

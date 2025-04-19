@@ -5,18 +5,4 @@ export const groceryItems = [
     quantity: 5,
     checked: true,
   },
-
-  {
-    id: 2,
-    name: "gula pasir",
-    quantity: 5,
-    checked: false,
-  },
-
-  {
-    id: 3,
-    name: "air minum",
-    quantity: 3,
-    checked: false,
-  },
 ];
