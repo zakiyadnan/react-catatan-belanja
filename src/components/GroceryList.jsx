@@ -1,12 +1,14 @@
 import { groceryItems } from '../statis/static'
-
+import Item from '../components/item'
+import Header from './Header';
 function GroceryList() {
   return (
     <>
       <div className="list">
         <ul>
+        
           {groceryItems.map((item) => (
-           <item item={item} key={item.id} />
+           <Item item={item} key={item.id} />
           ))}
         </ul>
       </div>

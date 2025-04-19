@@ -2,11 +2,12 @@ import { useState } from "react";
 
 function Header() {
 const [name, setName] = useState('')
-  const quantityNum = [...Array(20)].map((_, i) => ();
-  <option value={ +1} key={i +1}>
+  const quantityNum = [...Array(20)].map((_, i) => (<option value={ +1} key={i +1}>
     {i +1}
-  </option>
+  </option>));
+  
   return (
+    
     <form className="add-form">
       <h3>Hari ini belanja apa kita?</h3>
       <div>
