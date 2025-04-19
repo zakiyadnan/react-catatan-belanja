@@ -6,13 +6,7 @@ function GroceryList() {
       <div className="list">
         <ul>
           {groceryItems.map((item) => (
-            <li>
-              <input type="checkbox" />
-              <span style={{ textDecoration: "line-through" }}>
-                1`{item.quantity} {item.name}
-              </span>
-              <button>&times;</button>
-            </li>
+           <item item={item} key={item.id} />
           ))}
         </ul>
       </div>
