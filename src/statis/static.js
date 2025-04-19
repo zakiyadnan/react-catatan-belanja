@@ -5,6 +5,7 @@ export const groceryItems = [
     quantity: 5,
     checked: true,
   },
+<<<<<<< HEAD
 
   {
     id: 2,
@@ -26,4 +27,6 @@ export const groceryItems = [
     quantity: 5,
     checked: true,
   }
+=======
+>>>>>>> 7591fa4818b6d45db446d4a1c516af29249ef061
 ];
